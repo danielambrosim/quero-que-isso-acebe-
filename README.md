@@ -26,27 +26,51 @@ create a new application:
 
 crud-prisma/
 │
+
 ├── .env
+
 ├── package.json
+
 ├── tsconfig.json
+
 ├── prisma/
+
 │   ├── schema.prisma
+
 ├── src/
+
 │   ├── app.ts
+
 │   ├── server.ts
+
 │   ├── routes/
+
 │   │   ├── usuarioRoutes.ts
+
 │   │   ├── carteiraRoutes.ts
+
 │   │   ├── criptoativoRoutes.ts
+
 │   │   ├── transacaoRoutes.ts
+
 │   │   ├── carteiraCriptoRoutes.ts
+
 │   ├── controllers/
+
 │   │   ├── usuarioController.ts
+
 │   │   ├── carteiraController.ts
+
 │   │   ├── criptoativoController.ts
+
 │   │   ├── transacaoController.ts
+
 │   │   ├── carteiraCriptoController.ts
+
 │   ├── middlewares/
+
 │   │   └── errorHandler.ts
+
 │   ├── prisma/
+
 │       └── client.ts
